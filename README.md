@@ -1,3 +1,3 @@
-# ReactiveWebTemplate
+# ApplesLandingPAge
 
-<a href="https://ignaciogr.github.io/ReactiveWebTemplate/">Live Demo</a>
+<a href="https://ignaciogr.github.io/ApplesLandingPage/">Live Demo</a>
