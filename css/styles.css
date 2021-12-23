@@ -1,6 +1,24 @@
 :root {
   --blue: rgb(81, 155, 130);
   --darkblue: rgb(55, 99, 84);
+  --darkerblue: rgb(27, 56, 46);
+  --darkestblue: rgb(18, 37, 31);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--darkblue);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--darkerblue);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--darkestblue);
 }
 
 html {
@@ -205,6 +223,12 @@ footer .container-fluid {
 @media (min-width: 1601px) {
   .title-image {
     top: -70%;
+  }
+}
+
+@media (min-width: 1969px) {
+  .title-image {
+    top: -100%;
   }
 }
 
